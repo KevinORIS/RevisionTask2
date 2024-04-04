@@ -31,6 +31,6 @@ public class Task03 {
     		return false;
     	}
     	
-        return width > side && length > side;
+        return width <= side && length <= side;
     }
 }
