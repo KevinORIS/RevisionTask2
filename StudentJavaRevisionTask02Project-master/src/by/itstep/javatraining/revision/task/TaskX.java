@@ -52,23 +52,25 @@ public class TaskX {
 			a = b;
 			b = t;
 		}
-		int n1 = 0;
-		int n2 = 0;
+		int heightA = 0;
+		int heightB = 0;
+		int n = 0;
+		int k = 1;
 
-		int i = 1;
-		while (n1 < a) {
-			n1 += i;
-			i++;
-		}
+		while (heightA - a != heightB - b) {
 
-		i = 1;
-		while (n2 < b) {
-			n2 += i;
-			i++;
+			heightA = (n * (n + 1)) / 2;
+			heightB = (k * (k + 1)) / 2;
+
+			if (n < a) {
+				n++;
+			}
+			if (k < b) {
+				k++;
+			}
 		}
-		System.out.println(n1 - a);
-		System.out.println(n2 - b);
-		System.out.println(" ");
-		return n1 - a;
+			
+		System.out.println(heightA - a);
+		return heightA - a;
 	}
 }
