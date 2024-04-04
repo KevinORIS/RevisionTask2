@@ -61,13 +61,10 @@ public class TaskX {
 
 			heightA = (n * (n + 1)) / 2;
 			heightB = (k * (k + 1)) / 2;
-
-			if (n < a) {
-				n++;
-			}
-			if (k < b) {
-				k++;
-			}
+			
+			n++;
+			k++;
+		
 		}
 			
 		System.out.println(heightA - a);
