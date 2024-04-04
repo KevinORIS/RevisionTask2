@@ -52,20 +52,20 @@ public class TaskX {
 			a = b;
 			b = t;
 		}
-		 int n1 = 0;
-		 int n2 = 0;
-		    
-		    int i = 1;
-		    while (n1 < a) {
-		        n1 += i;
-		        i++;
-		    }
-		    
-		    i = 1;
-		    while (n2 < b) {
-		        n2 += i;
-		        i++;
-		    }
-	 return n1 - a;
+		int n1 = 0;
+		int n2 = 0;
+
+		int i = 1;
+		while (n1 < a) {
+			n1 += i;
+			i++;
+		}
+
+		i = 1;
+		while (n2 < b) {
+			n2 += i;
+			i++;
+		}
+		return n1 - a;
 	}
 }
