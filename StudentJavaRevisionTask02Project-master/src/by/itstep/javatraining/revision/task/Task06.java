@@ -25,6 +25,6 @@ package by.itstep.javatraining.revision.task;
 
 public class Task06 {
     public static boolean start(int a, int b, int c) {
-        return false;
+    	return a + b > c && a + c > b && b + c > a;
     }
 }
