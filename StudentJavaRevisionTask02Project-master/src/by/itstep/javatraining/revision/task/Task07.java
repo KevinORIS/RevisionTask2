@@ -42,9 +42,6 @@ public class Task07 {
     	if(number > 9999 || number < -9999) {
     		return 0;
     	}
-    	int sum = 0;
-    	sum += number % 10 + (number / 10 % 10) + (number / 100 % 10) + (number / 1000 % 10);
-    	
-        return Math.abs(sum);
+        return Math.abs(number % 10 + (number / 10 % 10) + (number / 100 % 10) + (number / 1000 % 10));
     }
 }
