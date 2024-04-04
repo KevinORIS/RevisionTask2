@@ -43,7 +43,29 @@ package by.itstep.javatraining.revision.task;
  */
 
 public class TaskX {
-    public static int start(int a, int b) {
-        return 0;
-    }
+	public static int start(int a, int b) {
+		if (a <= 0 || b <= 0) {
+			return -1;
+		}
+		if (a > b) {
+			int t = a;
+			a = b;
+			b = t;
+		}
+		 int n1 = 0;
+		 int n2 = 0;
+		    
+		    int i = 1;
+		    while (n1 < a) {
+		        n1 += i;
+		        i++;
+		    }
+		    
+		    i = 1;
+		    while (n2 < b) {
+		        n2 += i;
+		        i++;
+		    }
+	 return n1 - a;
+	}
 }
