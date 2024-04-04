@@ -55,7 +55,6 @@ package by.itstep.javatraining.revision.task;
 public class Task05 {
 	public static String start(int a, int b, int n) {
 		if ((a == 0 && b == 0) || a < 0 || b < 0 || n <= 0) {
-			System.out.println("error");
 			return "error";
 		}
 		int rub = a * n;
