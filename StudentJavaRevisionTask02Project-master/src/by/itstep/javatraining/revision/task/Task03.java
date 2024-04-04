@@ -31,10 +31,6 @@ public class Task03 {
     		return false;
     	}
     	
-    	boolean flag = true;
-    	
-    	flag = width > side && length > side;
-    	
-        return flag;
+        return width > side && length > side;
     }
 }
