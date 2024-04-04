@@ -66,6 +66,9 @@ public class TaskX {
 			n2 += i;
 			i++;
 		}
+		System.out.println(n1 - a);
+		System.out.println(n2 - b);
+		System.out.println(" ");
 		return n1 - a;
 	}
 }
