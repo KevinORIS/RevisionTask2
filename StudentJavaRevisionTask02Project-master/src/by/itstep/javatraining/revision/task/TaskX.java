@@ -66,8 +66,6 @@ public class TaskX {
 			k++;
 		
 		}
-			
-		System.out.println(heightA - a);
 		return heightA - a;
 	}
 }
