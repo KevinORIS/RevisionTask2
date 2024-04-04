@@ -33,11 +33,7 @@ public class Task03 {
     	
     	boolean flag = true;
     	
-    	if(width > side) {
-    		flag = false;
-    	} else if (length > side) {
-    		flag = false;
-    	}
+    	flag = width > side && length > side;
     	
         return flag;
     }
