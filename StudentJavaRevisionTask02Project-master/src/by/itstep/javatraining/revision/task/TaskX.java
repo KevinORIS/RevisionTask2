@@ -64,8 +64,8 @@ public class TaskX {
 			
 			n++;
 			k++;
-		
 		}
+		
 		return heightA - a;
 	}
 }
